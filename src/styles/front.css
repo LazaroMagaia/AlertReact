@@ -1,0 +1,114 @@
+*
+{
+    font-family: 'Poppons' sans-serif;
+}
+
+.navhome
+{
+    margin: 10px 0;
+}
+.navhome a
+{
+    margin:0 10px;
+    text-decoration:none;
+    color: #000000;
+}
+a.active
+{
+    text-decoration: underline;
+}
+
+/*********************************HOME*********************************/
+.banner-principal
+{
+    margin:10px 0;
+    width: 100%;
+    height: 500px;
+    background-color: #F7FFE0;
+    border-radius: 20px;
+}
+.banner-principal .desc
+{
+    padding-top: 60px;
+}
+.banner-principal .desc h3
+{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.banner-principal .desc :is(input[type="text"]) 
+{
+    width: 40%;
+    outline:none;
+    border:0;
+    height: 40px;
+    background-color: transparent;
+    border-bottom: 2px solid #F2EFC7;
+    transition: 0.5s ease;
+    padding-left: 10px;
+}
+.banner-principal .desc :is(input[type="text"]):hover
+{
+    border:2px solid #F2EFC7;
+}
+.banner-principal .desc button
+{
+    width: 100px;
+    height: 40px;
+    background-color: #D2BBA0;
+    outline: none;
+    border: 0;
+    color: #FFFFFF;
+    transition: 0.5s ease;
+}
+.banner-principal .desc button:hover
+{
+    background-color: #9F7E69;
+}
+.error-message
+{
+    color: red;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.server-response
+{
+    margin-top: 40px;
+}
+.server-response p
+{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #9F7E69;
+}
+.server-response span
+{
+    position: relative;
+    font-size: 1rem;
+    top: -20px;
+    color: #9F7E69;
+}
+.mais-vistos
+{
+    margin: 80px;
+}
+.table-home
+{
+    margin-top: 40px;
+    width: 100%;
+    border-radius:10px;
+    -webkit-box-shadow: 0px 0px 7px -4px #000000; 
+    box-shadow: 0px 0px 7px -4px #000000;
+}
+.table-home :is(th,tr)
+{
+    border-bottom:1px solid #ccc;
+    padding:10px;
+}
+.table-home tr:last-child
+{
+    border:none;
+}
+.table-home td{
+    padding:5px;
+}
